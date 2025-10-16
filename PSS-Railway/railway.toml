@@ -1,0 +1,7 @@
+[build]
+builder = "Docker"
+
+[deploy]
+path = "."
+numReplicas = 1
+startCommand = "docker-compose up --build"
