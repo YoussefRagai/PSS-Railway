@@ -1,0 +1,6 @@
+# railway.toml
+[build]
+builder = "dockerfile"
+
+[deploy]
+path = "PSS-Railway"
