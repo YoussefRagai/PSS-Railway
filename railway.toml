@@ -2,4 +2,4 @@
 builder = "dockerfile"
 
 [deploy]
-startCommand = "python backend/main.py"
+startCommand = "python backend/app.py"
