@@ -1,7 +1,5 @@
-[build]
-builder = "Docker"
-
+# railway.toml
 [deploy]
 path = "PSS-Railway"
-startCommand = "docker-compose up --build"
+startCommand = "docker compose up --build"
 numReplicas = 1
