@@ -1,4 +1,10 @@
 # railway.toml
 [deploy]
+# The folder where your docker-compose.yml lives
 path = "PSS-Railway"
+
+# Command to start the app
 startCommand = "docker compose up --build"
+
+# Optional: number of containers to run
+numReplicas = 1
