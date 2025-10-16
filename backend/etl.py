@@ -5,7 +5,7 @@ from util_db import get_conn, upsert_many
 API_BASE = "https://korastats.pro/pro/api.php"
 API_VERSION = "V2"
 LANG = "en"
-API_KEY = os.getenv("KORASTATS_API_KEY")
+API_KEY = os.getenv("WW91c3NlZnJhZ2FpOllvdXNzZWZyQGdAaQ==")
 if not API_KEY:
     raise SystemExit("❌ Set KORASTATS_API_KEY env var.")
 
