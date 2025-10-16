@@ -2,4 +2,3 @@
 [deploy]
 path = "PSS-Railway"
 startCommand = "docker compose up --build"
-numReplicas = 1
